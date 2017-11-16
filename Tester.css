@@ -1,0 +1,66 @@
+body
+{
+    font: 9pt arial, sans-serif;
+}
+table.SuperGridCss
+{
+	border:1px solid black;
+    border-collapse: collapse;
+}
+    table.SuperGridCss * {
+        margin:0;
+    }
+    table.SuperGridCss thead th {
+        background-color:black;
+        color:white;
+        height:25pt;
+    }
+        table.SuperGridCss thead th.Name {
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    table.SuperGridCss tfoot td {
+        background-color:black;
+        font-weight:bold;
+        text-align:center;
+        color:white;
+        height:25pt;
+    }
+        table.SuperGridCss tfoot td.Name {
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    table.SuperGridCss tbody td {
+        padding:5px;
+    }
+    table.SuperGridCss tbody td.Extension {
+        text-align:center;
+    }
+        table.SuperGridCss tbody td.Name {
+            background-color:black;
+            font-weight:bold;
+            color:white;
+        }
+    table.SuperGridCss tr.odd {
+        background-color:lightgray;
+    }
+
+dl.SuperGridConfigDump {
+  }
+dl.SuperGridConfigDump   dt {
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    font-weight: bold;
+    color: green;
+  }
+dl.SuperGridConfigDump   dt:after {
+    content: ":";
+  }
+dl.SuperGridConfigDump   dd {
+    margin: 0 0 0 260px;
+    padding: 0 0 0.5em 0;
+  }
